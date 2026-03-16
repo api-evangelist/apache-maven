@@ -1,0 +1,34 @@
+aid: apache-maven
+name: Apache Maven
+description: >-
+  Apache Maven is a software project management and comprehension tool based on the concept of a project object model (POM). It provides a uniform build system, dependency management, and a comprehensive plugin ecosystem for Java projects.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Build Tool
+  - Java
+  - Dependency Management
+  - Project Management
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-maven/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-maven:apache-maven
+    name: Apache Maven
+    description: >-
+      Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending build capabilities, a Repository API for artifact management, and the Wagon transport API for repository access.
+    humanURL: https://maven.apache.org/guides/index.html
+    tags:
+      - Java
+      - Build
+      - Plugins
+    properties:
+      - type: Documentation
+        url: https://maven.apache.org/guides/index.html
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
