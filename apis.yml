@@ -8,8 +8,8 @@ access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Build Tool
-  - Java
   - Dependency Management
+  - Java
   - Project Management
 created: '2026-03-16'
 modified: '2026-03-16'
@@ -23,8 +23,8 @@ apis:
       Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending build capabilities, a Repository API for artifact management, and the Wagon transport API for repository access.
     humanURL: https://maven.apache.org/guides/index.html
     tags:
-      - Java
       - Build
+      - Java
       - Plugins
     properties:
       - type: Documentation
