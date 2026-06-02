@@ -2,13 +2,13 @@
   "repo": "apache-maven",
   "feeds": [
     {
-      "source": "https://maven.apache.org/news.html",
-      "feed_url": "",
+      "source": "https://maven.apache.org/mailing-lists.html",
+      "feed_url": "https://maven.apache.org/mailing-lists.html",
       "title": "",
       "saved": 0,
-      "error": "no_feed"
+      "method": "none"
     }
   ],
-  "fetched": "2026-05-17T20:48:52Z",
+  "fetched": "2026-06-01T23:35:02Z",
   "post_count": 0
 }
