@@ -35,7 +35,7 @@ apis:
         url: https://maven.apache.org/install.html
       - type: APIReference
         url: https://maven.apache.org/ref/current/
-      - type: SDK
+      - type: SDKs
         url: https://central.sonatype.com/artifact/org.apache.maven/maven-core
         title: Maven Central (Java)
       - type: GitHubRepository
