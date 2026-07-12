@@ -57,6 +57,10 @@ apis:
       - type: APIReference
         url: https://central.sonatype.com/api-doc
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-maven-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-maven-domain-security.yml
   - type: Portal
     url: https://maven.apache.org/
   - type: GitHubOrganization
