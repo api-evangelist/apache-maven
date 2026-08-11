@@ -69,6 +69,19 @@ apis:
       - type: APIReference
         url: https://central.sonatype.com/api-doc
 common:
+  - type: IssueTracker
+    url: https://github.com/apache/maven/issues
+  - type: Releases
+    url: https://github.com/apache/maven/releases
+  - type: SecurityPolicy
+    url: https://github.com/apache/maven/blob/master/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/maven/blob/master/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/maven/blob/master/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-maven-vulnerability-disclosure.yml
   - type: DomainSecurity
