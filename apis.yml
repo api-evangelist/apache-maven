@@ -19,6 +19,12 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-maven.png
 tags:
+  - Build Tools
+  - Dependency Management
+  - Java
+  - Project Management
+  - Maven
+tags_raw:
   - Build Tool
   - Dependency Management
   - Java
@@ -36,6 +42,11 @@ apis:
       Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending build capabilities, a Repository API for artifact management via Maven Artifact Resolver, and the Wagon transport API for repository access. Maven 4 introduces improved APIs and the Maven Upgrade Tool for migration.
     humanURL: https://maven.apache.org/guides/index.html
     tags:
+      - Builds
+      - Java
+      - Plugins
+      - Project Object Model
+    tags_raw:
       - Build
       - Java
       - Plugins
