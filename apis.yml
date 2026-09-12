@@ -93,6 +93,8 @@ apis:
       - type: APIReference
         url: https://central.sonatype.com/api-doc
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: IssueTracker
     url: https://github.com/apache/maven/issues
   - type: Releases
