@@ -1,4 +1,4 @@
-# Apache Maven (apache-maven)
+# Apache Maven
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,110 +66,104 @@
 
 Apache Maven is a software project management and comprehension tool based on the concept of a project object model (POM). It provides a uniform build system, dependency management, project lifecycle, and a comprehensive plugin ecosystem for Java projects. Maven 4 is the current major version with the Maven Daemon for faster builds.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/apache-maven/refs/heads/main/apis.yml)
+**Areas:** Build Tools · Dependency Management · Java · Project Management · Maven
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Maven on APIs.io
 
-## Tags:
+Everything profiled for Apache Maven is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-maven/](https://apis.io/providers/apache-maven/)** — or go straight to one of the APIs or properties below.
 
- - Build Tool, Dependency Management, Java, Maven, Project Management
+### APIs (2)
 
-## Timestamps
+- [Apache Maven Core](https://apis.io/apis/apache-maven/apache-maven-core/) — Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending build capabilities, a Repository API for artifact management…
+- [Maven Central Repository API](https://apis.io/apis/apache-maven/maven-central-repository/) — The Maven Central Repository (search.maven.org and central.sonatype.com) hosts millions of Java artifacts and provides a REST API and web interface for…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Maven Core
-Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending build capabilities, a Repository API for artifact management via Maven Artifact Resolver, and the Wagon transport API for repository access. Maven 4 introduces improved APIs and the Maven Upgrade Tool for migration.
+#### Security (2)
 
-**Human URL:** [https://maven.apache.org/guides/index.html](https://maven.apache.org/guides/index.html)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Maven Domain Security](https://apis.io/security/apache-maven/apache-maven-domain-security/)
+- [Apache Maven Vulnerability Disclosure](https://apis.io/security/apache-maven/apache-maven-vulnerability-disclosure/)
 
- - Build, Java, Plugins, Project Object Model
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://maven.apache.org/guides/index.html)
-- [GettingStarted](https://maven.apache.org/install.html)
-- [APIReference](https://maven.apache.org/ref/current/)
-- [Maven Central (Java)](https://central.sonatype.com/artifact/org.apache.maven/maven-core)
-- [GitHubRepository](https://github.com/apache/maven)
+- [Apache Maven Plans Pricing](https://apis.io/plans/apache-maven/apache-maven-plans-pricing/)
 
-### Maven Central Repository API
-The Maven Central Repository (search.maven.org and central.sonatype.com) hosts millions of Java artifacts and provides a REST API and web interface for searching, browsing, and downloading dependencies. It is the default artifact repository for Maven builds.
+#### Rate limits (1)
 
-**Human URL:** [https://central.sonatype.com/](https://central.sonatype.com/)
+Published request limits.
 
-#### Tags:
+- [Apache Maven Rate Limits](https://apis.io/rate-limits/apache-maven/apache-maven-rate-limits/)
 
- - Artifact Repository, Dependency Management, Package Registry
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://central.sonatype.org/publish/)
-- [Portal](https://central.sonatype.com/)
-- [APIReference](https://central.sonatype.com/api-doc)
+- [Apache Maven Finops](https://apis.io/finops/apache-maven/apache-maven-finops/)
 
-## Common Properties
+## Where to find this API
 
-- [Portal](https://maven.apache.org/)
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository](https://github.com/apache/maven)
-- [GitHubRepository](https://github.com/apache/maven-resolver)
-- [GitHubRepository](https://github.com/apache/maven-mvnd)
-- [GitHubRepository](https://github.com/apache/maven-surefire)
-- [GitHubRepository](https://github.com/apache/maven-enforcer)
-- [GitHubRepository](https://github.com/apache/maven-assembly-plugin)
-- [Wiki](https://cwiki.apache.org/confluence/display/MAVEN)
-- [IssueTracker](https://issues.apache.org/jira/projects/MNG/issues)
-- [MailingList](https://maven.apache.org/mailing-lists.html)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Blog](https://maven.apache.org/news.html)
-- [TermsOfService](https://www.apache.org/licenses/LICENSE-2.0)
+- [Terms of service](https://www.apache.org/licenses/LICENSE-2.0)
+- [GitHub](https://github.com/apache)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Project Object Model (POM) | XML-based project descriptor that defines dependencies, build configuration, plugins, and project metadata in a declarative format. |
-| Dependency Management | Automatic resolution and downloading of project dependencies and transitive dependencies from Maven Central and other repositories. |
-| Build Lifecycle | Standardized build lifecycle with phases including validate, compile, test, package, verify, install, and deploy. |
-| Plugin Architecture | Extensible plugin system (Mojo API) with hundreds of official and third-party plugins for code generation, testing, packaging, and deployment. |
-| Maven Daemon (mvnd) | Persistent daemon process that dramatically reduces build startup time by keeping the JVM and Maven warm between builds. |
-| Maven Wrapper | Ensures consistent Maven version usage across a project team without requiring separate Maven installation. |
-| Artifact Resolver | Maven Artifact Resolver library provides programmatic API for artifact resolution, download, and local repository management. |
-| Multi-Module Projects | Support for building complex multi-module projects with inter-module dependency management and coordinated releases. |
-| Maven 4 | Latest major version with improved APIs, better performance, consumer POM support, and the Maven Upgrade Tool for migration. |
-| Central Repository Publishing | Streamlined artifact publishing to Maven Central via Sonatype's publishing portal with automated checks. |
+**Kin Score 31.0** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Java Project Build Automation | Automate compilation, testing, packaging, and deployment of Java projects with standardized build lifecycles. |
-| Dependency Management | Declare and automatically resolve project dependencies including transitive dependencies from Maven Central. |
-| CI/CD Pipeline Integration | Integrate Maven builds into CI/CD pipelines with reproducible builds via the Maven Wrapper and build cache extension. |
-| Multi-Module Enterprise Builds | Manage complex enterprise Java projects with dozens of interdependent modules and shared dependency management. |
-| Artifact Publishing | Publish Java libraries and applications to Maven Central or private artifact repositories for team and public consumption. |
-| Plugin Development | Develop custom Maven plugins using the Mojo API to extend build capabilities for specialized project needs. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| IntelliJ IDEA | Native Maven project support with POM editing, dependency management, and Maven tool window. |
-| Eclipse | Maven integration via the m2e plugin for POM-based project management within Eclipse IDE. |
-| Jenkins | Jenkins Maven plugin for triggering and monitoring Maven builds in CI/CD pipelines. |
-| GitHub Actions | Official GitHub Actions for caching Maven dependencies and running Maven builds in workflows. |
-| Sonatype Nexus | Enterprise artifact repository manager fully compatible with Maven for hosting private artifact repositories. |
-| JFrog Artifactory | Enterprise artifact repository with full Maven repository protocol support and build integration. |
-| Apache Tomcat | Tomcat Maven Plugin enables deploying web applications to Apache Tomcat directly from Maven builds. |
-| GraalVM | Maven plugins for building native images from Java applications using GraalVM Native Image. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-maven/](https://apis.io/providers/apache-maven/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Maven: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-maven/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
